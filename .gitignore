@@ -1,0 +1,19 @@
+﻿# Compilados
+bin/
+obj/
+dist/
+dist-light/
+
+# Artefactos de release (el exe vive en GitHub Releases, no en el repo)
+release/
+*.zip
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.user
+*.suo
+*.DotSettings.user
+
+# Artefactos locales
+*.log
